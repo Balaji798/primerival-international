@@ -54,7 +54,7 @@ export default function ProcessHero() {
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto mb-12">
-              At Primerival International Pte Ltd, we don't just process eggs – we control the entire journey from the feed our hens eat to the finished products on your shelves. Our vertically integrated approach ensures consistent quality, full traceability, and sustainable practices at every stage.
+              At Prime International, we don't just process eggs – we control the entire journey from the feed our hens eat to the finished products on your shelves. Our vertically integrated approach ensures consistent quality, full traceability, and sustainable practices at every stage.
             </p>
 
             <motion.button

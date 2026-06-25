@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
 
   return {
-    title: `${product.name} | Primerival International Pte Ltd Products`,
+    title: `${product.name} | Prime International Products`,
     description: product.description.substring(0, 160),
     openGraph: {
       title: product.name,

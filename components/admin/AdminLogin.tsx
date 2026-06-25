@@ -63,7 +63,7 @@
 //               onChange={(e) => setEmail(e.target.value)}
 //               required
 //               className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#fa3035] focus:outline-none text-gray-800 transition-colors"
-//               placeholder="admin@Primerival International Pte Ltd.com"
+//               placeholder="admin@Prime International.com"
 //             />
 //           </div>
 

@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 export default function WhatsAppFloat() {
   const [isHovered, setIsHovered] = useState(false);
 
-  const whatsappUrl = "https://api.whatsapp.com/send?phone=917021432659&text=Hello%21+I+found+your+website+https%3A%2F%2Fwww.Primerival International Pte Ltd.in+and+am+interested+in+your+products.";
+  const whatsappUrl = "https://api.whatsapp.com/send?phone=917021432659&text=Hello%21+I+found+your+website+https%3A%2F%2Fwww.Prime International.in+and+am+interested+in+your+products.";
 
   return (
     <div className="fixed bottom-6 right-6 z-50">

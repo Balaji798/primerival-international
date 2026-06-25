@@ -92,7 +92,7 @@ export default function Header() {
               {/* Logo with White Box - Overflowing Top and Bottom */}
               <Link href="/" className="flex items-center z-10 -my-8">
                 <div className="bg-white rounded-xl shadow-2xl px-6 py-6 border-2 border-gray-100">
-                 <img src="logo.png" className="w-30 h-20"/>
+                 <img src="logo.png" className="w-25 h-20"/>
                 </div>
               </Link>
 

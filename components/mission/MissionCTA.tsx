@@ -46,7 +46,7 @@ export default function MissionCTA() {
               </h2>
 
               <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
-                Join hundreds of B2C partners who trust Primerival International Pte Ltd for premium, reliable latex products. Let&apos;s create success together.
+                Join hundreds of B2C partners who trust Prime International for premium, reliable latex products. Let&apos;s create success together.
               </p>
 
               {/* Buttons */}

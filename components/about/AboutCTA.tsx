@@ -27,7 +27,7 @@ export default function AboutCTA() {
             
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-gray-800">
               Ready to Partner with{' '}
-              <span className="text-[#fa3035]">Primerival International Pte Ltd?</span>
+              <span className="text-[#fa3035]">Prime International?</span>
             </h2>
             
             <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">

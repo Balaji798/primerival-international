@@ -109,18 +109,6 @@ export default function ProductsSection() {
             </div>
           ))}
         </div>
-
-        {/* CTA Section */}
-        <div className="text-center mt-16">
-          <p className="text-gray-700 mb-6 text-lg">
-            Can't find what you're looking for?
-          </p>
-          <Link href="/contact">
-            <button className="bg-gradient-to-r from-[#fa3035] to-[#800000] text-white px-10 py-4 rounded-full hover:shadow-2xl transition-all duration-300 font-bold text-lg">
-              Request Custom Product
-            </button>
-          </Link>
-        </div>
       </div>
     </section>
   );

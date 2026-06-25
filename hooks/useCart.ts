@@ -4,7 +4,7 @@
 import { useState, useEffect } from 'react';
 import { Cart, CartItem, Product } from '@/types';
 
-const CART_STORAGE_KEY = 'Primerival International Pte Ltd-cart';
+const CART_STORAGE_KEY = 'Prime International-cart';
 
 export function useCart() {
   const [cart, setCart] = useState<Cart>({ items: [], subtotal: 0, total: 0 });

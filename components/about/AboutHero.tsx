@@ -33,7 +33,7 @@ export default function AboutHero() {
               
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-[#800000] mb-6 leading-tight">
                 Welcome to{' '}
-                <span className="text-[#fa3035]">Primerival International Pte Ltd</span>
+                <span className="text-[#fa3035]">Prime International</span>
               </h1>
               <p className="text-2xl md:text-3xl text-gray-800 font-semibold mb-8">
                 From Farm to Table, 
@@ -43,7 +43,7 @@ export default function AboutHero() {
             </div>
 
             <p className="text-lg text-gray-700 leading-relaxed">
-              Primerival International Pte Ltd is a <span className="font-semibold text-[#800000]"> innovation-first</span> company redefining latex processing for B2C food systems. Headquartered in Thailand, we manufacture and export premium latex-based ingredients built for performance, consistency, and shelf-stability.
+              Prime International is a <span className="font-semibold text-[#800000]"> innovation-first</span> company redefining latex processing for B2C food systems. Headquartered in Thailand, we manufacture and export premium latex-based ingredients built for performance, consistency, and shelf-stability.
             </p>
 
             {/* Stats Grid */}
@@ -118,7 +118,7 @@ export default function AboutHero() {
               <div className="col-span-2 relative h-96 rounded-3xl overflow-hidden shadow-2xl">
                 <Image
                   src="https://static.wixstatic.com/media/92604c_0e1a7b42bbdf47b8b508ecdc2634cd37~mv2.png/v1/fill/w_1536,h_360,al_c,q_90,enc_auto/92604c_0e1a7b42bbdf47b8b508ecdc2634cd37~mv2.png"
-                  alt="Primerival International Pte Ltd Latex Product"
+                  alt="Prime International Latex Product"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"

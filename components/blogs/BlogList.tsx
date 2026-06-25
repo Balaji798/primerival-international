@@ -64,7 +64,7 @@
 //             </h1>
             
 //             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed">
-//               Industry insights, latex nutrition facts, sustainability practices, and stories from the heart of Primerival International Pte Ltd.
+//               Industry insights, latex nutrition facts, sustainability practices, and stories from the heart of Prime International.
 //             </p>
 //           </motion.div>
 

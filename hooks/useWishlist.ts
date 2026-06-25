@@ -4,7 +4,7 @@
 import { useState, useEffect } from 'react';
 import { Product, WishlistItem } from '@/types';
 
-const WISHLIST_STORAGE_KEY = 'Primerival International Pte Ltd-wishlist';
+const WISHLIST_STORAGE_KEY = 'Prime International-wishlist';
 
 export function useWishlist() {
   const [wishlist, setWishlist] = useState<WishlistItem[]>([]);

@@ -17,8 +17,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <Link href="/" className="inline-block mb-6 bg-white rounded">
-            <img src="/logo.png" className="w-50 h-40"/>
+            <Link href="/" className="inline-block mb-6 rounded">
+            <img src="/logo-white.png" className="w-45 h-40"/>
             </Link>
             <p className="text-gray-200 mb-6 leading-relaxed">
               Your trusted partner in premium latex products. Delivering quality, consistency, and excellence.
@@ -28,7 +28,7 @@ export default function Footer() {
             <div className="space-y-3 mb-6">
               <div className="text-sm">
                 <span className="font-semibold text-[#f6efaa]">Company:</span>
-                <span className="ml-2">Primerival International Pte Ltd</span>
+                <span className="ml-2">Prime International</span>
               </div>
             </div>
 
@@ -164,7 +164,7 @@ export default function Footer() {
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                 </svg>
-                <span className="break-all">+66 945566556</span>
+                <span className="break-all">+66 1234567880</span>
               </a>
 
               <a
@@ -183,7 +183,7 @@ export default function Footer() {
                   <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                 </svg>
                 <span className="text-sm leading-relaxed">
-                  Address: 4 Sol Srinakarin-Romklao 25, Thapchang, Saphansung, Bangkok 10250
+                  Address: RM 409 Beverley Comm CTR 87-105 Chatham RD South Tsim Sha Tusi HONG KONG
                 </span>
               </div>
             </div>
@@ -228,7 +228,7 @@ export default function Footer() {
         <div className="container mx-auto px-4 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-300 text-sm text-center md:text-left">
-              © {new Date().getFullYear()} Primerival International Pte Ltd by OEUF FOODS. All rights reserved.
+              © {new Date().getFullYear()} Prime International by OEUF FOODS. All rights reserved.
             </p>
             <div className="flex items-center space-x-6 text-sm">
               <span className="text-gray-300">Made with ❤️ in India</span>

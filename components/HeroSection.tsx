@@ -17,7 +17,7 @@ export default function HeroSection() {
             <div className="space-y-5 md:space-y-7 order-2 lg:order-1">
               <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight font-pally">
                 <span className="text-gray-800 block">Welcome to</span>
-                <span className="text-[#fa3035] block mt-2">Primerival International Pte Ltd </span>
+                <span className="text-[#fa3035] block mt-2">Primerival International</span>
               </h1>
 
               <p className="text-lg md:text-xl lg:text-2xl text-gray-700 font-semibold font-pally">
@@ -26,22 +26,16 @@ export default function HeroSection() {
               </p>
 
               <p className="text-sm md:text-base text-gray-600 leading-relaxed">
-    Primerival International Pte Ltd is a dynamic company that has swiftly carved a niche in the latex industry. We are prominent manufacturers, exporters, traders & suppliers specializing in innovative natural latex products including disposable gloves, ergonomic pillows, and premium mattresses for global partners.
+                Primerival International is a dynamic company that has swiftly carved a niche in the latex industry. We are prominent manufacturers, exporters, traders & suppliers specializing in innovative natural latex products including disposable gloves, ergonomic pillows, and premium mattresses for global partners.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 pt-2">
-                <Link 
+                <Link
                   href="/products"
                   className="bg-[#fa3035] text-white px-8 py-3.5 rounded-full hover:bg-[#fa3035]/90 transition-all duration-300 font-semibold shadow-lg hover:shadow-xl text-center font-pally"
                 >
                   Explore Products
                 </Link>
-                <button 
-                  onClick={() => setIsModalOpen(true)}
-                  className="border-2 border-gray-300 text-gray-700 px-8 py-3.5 rounded-full hover:bg-gray-100 hover:border-gray-400 transition-all duration-300 font-semibold text-center font-pally"
-                >
-                  Partner With Us
-                </button>
               </div>
 
               {/* Stats */}
@@ -81,7 +75,7 @@ export default function HeroSection() {
                   Trusted by
                 </div>
                 <div className="text-lg font-bold text-gray-800 font-pally">
-                  Food Industry Leaders
+                  Industry Leaders
                 </div>
               </div>
 

@@ -50,7 +50,7 @@ export default function AboutVision() {
               {/* Right Side - Content */}
               <div className="lg:col-span-3 p-12 bg-white">
                 <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                  Our vision at <span className="font-bold text-gray-800">Primerival International Pte Ltd</span> is to be the{' '}
+                  Our vision at <span className="font-bold text-gray-800">Prime International</span> is to be the{' '}
                   <span className="font-bold text-[#fa3035]">leading provider of latex processing solutions</span>, setting the benchmark for excellence and innovation in the global food industry.
                 </p>
 

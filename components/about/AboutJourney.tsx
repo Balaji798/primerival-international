@@ -27,7 +27,7 @@ export default function AboutJourney() {
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
                 
-                <span className="font-bold text-[#800000]">Primerival International Pte Ltd</span>,  began with a mission to modernize latex processing for scale and reliability.
+                <span className="font-bold text-[#800000]">Prime International</span>,  began with a mission to modernize latex processing for scale and reliability.
               </p>
               
               <p className="text-lg text-gray-700 leading-relaxed">

@@ -39,7 +39,7 @@ export default function VerticalIntegration() {
             <span className="text-[#fa3035]">Means for You</span>
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed">
-            Vertical integration means Primerival International Pte Ltd owns and operates every stage of the egg production process – from feed manufacturing to final packaging. This comprehensive control delivers three critical advantages:
+            Vertical integration means Prime International owns and operates every stage of the egg production process – from feed manufacturing to final packaging. This comprehensive control delivers three critical advantages:
           </p>
         </motion.div>
 
