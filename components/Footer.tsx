@@ -187,38 +187,6 @@ export default function Footer() {
                 </span>
               </div>
             </div>
-
-            {/* Newsletter */}
-            <div className="mt-8">
-              <form className="space-y-3">
-                {error && (
-                  <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-xl">
-                    {error}
-                  </div>
-                )}
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Your email address"
-                  required
-                  className="w-full px-4 py-3 rounded-full bg-white/10 border border-white/20 text-white placeholder-gray-300 focus:outline-none focus:border-[#f6efaa] focus:bg-white/20 transition-all"
-                />
-                <button
-                  type="submit"
-                  disabled={subscribed}
-                  className={`w-full px-6 py-3 rounded-full font-semibold transition-all duration-300 ${subscribed
-                      ? 'bg-green-500 text-white'
-                      : 'bg-[#f6efaa] text-[#800000] hover:bg-white hover:shadow-lg transform hover:-translate-y-0.5'
-                    }`}
-                >
-                  {subscribed ? '✓ Subscribed!' : 'Subscribe'}
-                </button>
-              </form>
-              <p className="text-xs text-gray-300 mt-3">
-                Subscribe to our newsletter for updates and exclusive offers.
-              </p>
-            </div>
           </div>
         </div>
       </div>
@@ -228,7 +196,7 @@ export default function Footer() {
         <div className="container mx-auto px-4 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-300 text-sm text-center md:text-left">
-              © {new Date().getFullYear()} Prime International by OEUF FOODS. All rights reserved.
+              © {new Date().getFullYear()} Prime International by Prime International. All rights reserved.
             </p>
             <div className="flex items-center space-x-6 text-sm">
               <span className="text-gray-300">Made with ❤️ in India</span>

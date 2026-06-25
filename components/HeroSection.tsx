@@ -16,7 +16,7 @@ export default function HeroSection() {
             {/* Left Content */}
             <div className="space-y-5 md:space-y-7 order-2 lg:order-1">
               <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight font-pally">
-                <span className="text-gray-800 block">Welcome to</span>
+                {/* <span className="text-gray-800 block">Welcome to</span> */}
                 <span className="text-[#fa3035] block mt-2">Primerival International</span>
               </h1>
 

@@ -191,7 +191,7 @@ export default function Header() {
                 {/* Cart and Wishlist Icons */}
                 <div className="flex items-center space-x-3">
                   {/* Wishlist Icon */}
-                  <Link
+                  {/* <Link
                     href="/wishlist"
                     className="relative bg-white/20 backdrop-blur-sm text-white p-2.5 rounded-full hover:bg-white hover:text-[#800000] transition-all duration-300 shadow-lg hover:shadow-xl border border-white/30 hover:scale-105 group"
                   >
@@ -201,10 +201,10 @@ export default function Header() {
                         {wishlistItemsCount}
                       </span>
                     )}
-                  </Link>
+                  </Link> */}
 
                   {/* Cart Icon */}
-                  <Link
+                  {/* <Link
                     href="/cart"
                     className="relative bg-white/20 backdrop-blur-sm text-white p-2.5 rounded-full hover:bg-white hover:text-[#800000] transition-all duration-300 shadow-lg hover:shadow-xl border border-white/30 hover:scale-105 group"
                   >
@@ -214,8 +214,13 @@ export default function Header() {
                         {cartItemsCount}
                       </span>
                     )}
-                  </Link>
-
+                  </Link> */}
+<Link 
+  href="/get-quote"
+  className="bg-white/20 backdrop-blur-sm text-white px-6 py-2.5 rounded-full hover:bg-white hover:text-[#800000] transition-all duration-300 font-bold shadow-lg hover:shadow-xl border border-white/30 hover:scale-105 font-pally flex items-center gap-2"
+>
+  Get Quote
+</Link>
                   {/* Contact Button */}
                   <button 
                     onClick={() => setIsModalOpen(true)}
