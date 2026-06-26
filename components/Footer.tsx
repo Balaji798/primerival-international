@@ -20,7 +20,7 @@ export default function Footer() {
                 alt="Prime International Logo" 
                 width={168} 
                 height={126}
-                className="object-cover w-auto brightness-0 invert"
+                className="object-cover h-20 w-auto"
                 priority
               />
             </Link>
