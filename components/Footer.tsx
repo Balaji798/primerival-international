@@ -18,10 +18,11 @@ export default function Footer() {
               <Image 
                 src="/logo-white.png" 
                 alt="Prime International Logo" 
-                width={168} 
-                height={126}
-                className="object-cover h-20 w-auto"
+                width={128} 
+                height={96}
+                className="object-contain h-40 w-auto"
                 priority
+                unoptimized
               />
             </Link>
             <p className="text-gray-200 mb-6 leading-relaxed">
