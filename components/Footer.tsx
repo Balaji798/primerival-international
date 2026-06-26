@@ -110,12 +110,6 @@ export default function Footer() {
                   <span>Our Mission</span>
                 </Link>
               </li>
-              <li>
-                <Link href="/blogs" className="text-gray-200 hover:text-[#f6efaa] transition-colors flex items-center space-x-2">
-                  <span>→</span>
-                  <span>Blogs</span>
-                </Link>
-              </li>
             </ul>
           </div>
 
@@ -204,7 +198,7 @@ export default function Footer() {
               © {new Date().getFullYear()} Prime International by Prime International. All rights reserved.
             </p>
             <div className="flex items-center space-x-6 text-sm">
-              <span className="text-gray-300">Made with ❤️ in India</span>
+              <span className="text-gray-300">Made with ❤️ in Thailand</span>
             </div>
           </div>
         </div>

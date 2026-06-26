@@ -31,7 +31,7 @@ export default function AboutJourney() {
               </p>
               
               <p className="text-lg text-gray-700 leading-relaxed">
-                With cutting-edge facilities and a customer-centric mindset, we've grown into a trusted name across India and global markets. Our founder-led approach keeps us agile, authentic, and quality-obsessed.
+                With cutting-edge facilities and a customer-centric mindset, we've grown into a trusted name across Thailand and global markets. Our founder-led approach keeps us agile, authentic, and quality-obsessed.
               </p>
             </div>
 

@@ -56,7 +56,7 @@ export default function MissionHero() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-xl md:text-2xl text-gray-600 leading-relaxed"
             >
-              Delivering premium, sustainable latex products that empower food manufacturers worldwide.
+              Delivering premium, sustainable latex products.
             </motion.p>
 
             {/* Stats */}
@@ -90,7 +90,7 @@ export default function MissionHero() {
           >
             <div className="relative h-[500px] lg:h-[600px] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="/hero.jpg"
+                src="/product/pillow/pillow-1.jpg"
                 alt="Premium Egg Production"
                 fill
                 className="object-cover"

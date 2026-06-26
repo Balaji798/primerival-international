@@ -30,25 +30,22 @@ export default function AboutHero() {
             className="space-y-8"
           >
             <div>
-              
+
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-[#800000] mb-6 leading-tight">
-                Welcome to{' '}
                 <span className="text-[#fa3035]">Prime International</span>
               </h1>
               <p className="text-2xl md:text-3xl text-gray-800 font-semibold mb-8">
-                From Farm to Table, 
-{' '}
-                <span className="text-[#fa3035]">Excellence in Every Latex Product</span>
+                <span className="text-[#fa3035]">Excellence in Mattress, Gloves, Pillow Latex Product</span>
               </p>
             </div>
 
             <p className="text-lg text-gray-700 leading-relaxed">
-              Prime International is a <span className="font-semibold text-[#800000]"> innovation-first</span> company redefining latex processing for B2C food systems. Headquartered in Thailand, we manufacture and export premium latex-based ingredients built for performance, consistency, and shelf-stability.
+              Prime International is a <span className="font-semibold text-[#800000]"> innovation-first</span> company redefining latex processing for B2C systems. Headquartered in Thailand, we manufacture and export premium latex-based product built for performance, consistency, and shelf-stability.
             </p>
 
             {/* Stats Grid */}
             <div className="grid grid-cols-3 gap-6 pt-8">
-             
+
               <div className="text-center lg:text-left">
                 <motion.div
                   initial={{ scale: 0 }}
@@ -82,7 +79,7 @@ export default function AboutHero() {
 
                 </motion.div>
                 <div className="text-sm text-gray-600 font-medium">Quality Assured
-</div>
+                </div>
               </div>
             </div>
 
@@ -117,7 +114,7 @@ export default function AboutHero() {
               {/* Main Large Image */}
               <div className="col-span-2 relative h-96 rounded-3xl overflow-hidden shadow-2xl">
                 <Image
-                  src="https://static.wixstatic.com/media/92604c_0e1a7b42bbdf47b8b508ecdc2634cd37~mv2.png/v1/fill/w_1536,h_360,al_c,q_90,enc_auto/92604c_0e1a7b42bbdf47b8b508ecdc2634cd37~mv2.png"
+                  src="/product/mattress/natural-para-later.jpg"
                   alt="Prime International Latex Product"
                   fill
                   className="object-cover"
@@ -129,7 +126,7 @@ export default function AboutHero() {
               {/* Two Smaller Images */}
               <div className="relative h-48 rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="https://static.wixstatic.com/media/92604c_c51f52dc9bb042aaa6fcdcad6d869fbd~mv2.jpg/v1/fill/w_950,h_583,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/92604c_c51f52dc9bb042aaa6fcdcad6d869fbd~mv2.jpg"
+                  src="/product/pillow/pillow-1.jpg"
                   alt="Latex Processing"
                   fill
                   className="object-cover"
@@ -138,7 +135,7 @@ export default function AboutHero() {
               </div>
               <div className="relative h-48 rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="https://static.wixstatic.com/media/92604c_fa8ba41d52604e698634fd4f19216271~mv2.jpg"
+                  src="/product/glo/pexels-karola.jpg"
                   alt="Quality Assurance"
                   fill
                   className="object-cover"

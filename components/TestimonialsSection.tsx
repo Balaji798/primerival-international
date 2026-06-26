@@ -154,7 +154,7 @@ export default function TestimonialsSection() {
               <span className="text-[#fa3035]">Say</span>
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Don't just take our word for it. Here's what our valued partners across India have to say about working with us.
+              Don't just take our word for it. Here's what our valued partners across Thailand have to say about working with us.
             </p>
           </motion.div>
         </div>

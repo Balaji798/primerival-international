@@ -51,7 +51,7 @@ export default function AboutVision() {
               <div className="lg:col-span-3 p-12 bg-white">
                 <p className="text-xl text-gray-700 leading-relaxed mb-8">
                   Our vision at <span className="font-bold text-gray-800">Prime International</span> is to be the{' '}
-                  <span className="font-bold text-[#fa3035]">leading provider of latex processing solutions</span>, setting the benchmark for excellence and innovation in the global food industry.
+                  <span className="font-bold text-[#fa3035]">leading provider of latex product solutions</span>, setting the benchmark for excellence and innovation in the global industry.
                 </p>
 
                 <p className="text-lg text-gray-700 leading-relaxed mb-8">
