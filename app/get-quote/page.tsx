@@ -10,18 +10,27 @@ export default function GetQuote() {
     email: '',
     phone: '',
     company: '',
-    product: '',
+    selectedProducts: [] as string[],
     message: ''
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
   const [errorMessage, setErrorMessage] = useState('');
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
     });
+  };
+
+  const handleProductToggle = (productName: string) => {
+    setFormData(prev => ({
+      ...prev,
+      selectedProducts: prev.selectedProducts.includes(productName)
+        ? prev.selectedProducts.filter(p => p !== productName)
+        : [...prev.selectedProducts, productName]
+    }));
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -37,17 +46,17 @@ export default function GetQuote() {
       const publicKey = 'YOUR_PUBLIC_KEY';
 
       await emailjs.send(
-                process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
-                process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+        serviceId,
+        templateId,
         {
           from_name: formData.name,
           from_email: formData.email,
           phone: formData.phone,
           company: formData.company,
-          product: formData.product,
+          products: formData.selectedProducts.join(', '),
           message: formData.message,
         },
-        { publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY! }
+        publicKey
       );
 
       setSubmitStatus('success');
@@ -56,7 +65,7 @@ export default function GetQuote() {
         email: '',
         phone: '',
         company: '',
-        product: '',
+        selectedProducts: [],
         message: ''
       });
     } catch (error) {
@@ -174,23 +183,34 @@ export default function GetQuote() {
                 </div>
               </div>
 
-              {/* Product Interest */}
+              {/* Product Interest - Multiple Selection */}
               <div>
-                <label htmlFor="product" className="block text-sm font-semibold text-gray-700 mb-2">
-                  Product Interest *
+                <label className="block text-sm font-semibold text-gray-700 mb-3">
+                  Product Interest * (Select all that apply)
                 </label>
-                <select
-                  id="product"
-                  name="product"
-                  value={formData.product}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-[#fa3035] focus:ring-2 focus:ring-[#fa3035]/20 transition-all outline-none bg-white"
-                >
-                  <option value="">Select a product</option>
-                  {products.map((item)=>(<option value="Latex Gloves" key={item.id}>{item.name}</option>))}
-
-                </select>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3">
+                  {products.map((product) => (
+                    <label
+                      key={product.id}
+                      className={`flex items-center p-3 rounded-xl border-2 cursor-pointer transition-all duration-200 ${
+                        formData.selectedProducts.includes(product.name)
+                          ? 'border-[#fa3035] bg-[#fff5f5]'
+                          : 'border-gray-200 hover:border-gray-300'
+                      }`}
+                    >
+                      <input
+                        type="checkbox"
+                        checked={formData.selectedProducts.includes(product.name)}
+                        onChange={() => handleProductToggle(product.name)}
+                        className="w-5 h-5 text-[#fa3035] rounded border-gray-300 focus:ring-[#fa3035] focus:ring-2"
+                      />
+                      <span className="ml-3 text-sm font-medium text-gray-700">{product.name}</span>
+                    </label>
+                  ))}
+                </div>
+                {formData.selectedProducts.length === 0 && (
+                  <p className="mt-2 text-sm text-red-500">Please select at least one product</p>
+                )}
               </div>
 
               {/* Message */}
@@ -213,7 +233,7 @@ export default function GetQuote() {
               {/* Submit Button */}
               <button
                 type="submit"
-                disabled={isSubmitting}
+                disabled={isSubmitting || formData.selectedProducts.length === 0}
                 className="w-full bg-gradient-to-r from-[#800000] via-[#fa3035] to-[#800000] text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-lg hover:scale-[1.02] transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 font-pally"
               >
                 {isSubmitting ? (
@@ -234,8 +254,8 @@ export default function GetQuote() {
             <div className="mt-10 pt-8 border-t border-gray-200">
               <p className="text-center text-gray-600">
                 Prefer to contact us directly? Email us at{' '}
-                <a href="mailto:info@primerival.com" className="text-[#fa3035] font-semibold hover:underline">
-                  info@primerival.com
+                <a href="mailto:Pumtad@primerivalinternational.com" className="text-[#fa3035] font-semibold hover:underline">
+                  Pumtad@primerivalinternational.com
                 </a>
               </p>
             </div>
