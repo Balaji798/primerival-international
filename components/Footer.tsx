@@ -18,7 +18,13 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <Link href="/" className="inline-block mb-6 rounded">
-            <img src="/logo-white.PNG" className="w-45 h-40"/>
+              <Image 
+                src="/logo-white.png" 
+                alt="Prime International Logo" 
+                width={168} 
+                height={126}
+                className="object-cover w-auto brightness-0 invert"
+              />
             </Link>
             <p className="text-gray-200 mb-6 leading-relaxed">
               Your trusted partner in premium latex products. Delivering quality, consistency, and excellence.

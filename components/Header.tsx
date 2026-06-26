@@ -7,6 +7,7 @@ import ContactModal from '@/components/ContactModal';
 import { useCart } from '@/hooks/useCart';
 import { useWishlist } from '@/hooks/useWishlist';
 import { ShoppingCart, Heart, Phone } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -69,16 +70,16 @@ export default function Header() {
     <>
       <header
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-            ? 'py-2'
-            : 'py-3'
+          ? 'py-2'
+          : 'py-3'
           }`}
       >
         {/* Glassmorphism Container */}
         <div className="container mx-auto px-4 lg:px-8">
           <nav
             className={`relative backdrop-blur-xl bg-gradient-to-r from-[#800000]/95 via-[#fa3035]/95 to-[#800000]/95 rounded-2xl shadow-2xl border border-white/20 transition-all duration-300 ${isScrolled
-                ? 'shadow-[0_8px_32px_rgba(250,48,53,0.4)]'
-                : 'shadow-[0_20px_60px_rgba(250,48,53,0.5)]'
+              ? 'shadow-[0_8px_32px_rgba(250,48,53,0.4)]'
+              : 'shadow-[0_20px_60px_rgba(250,48,53,0.5)]'
               }`}
             style={{
               boxShadow: '0 8px 32px 0 rgba(250, 48, 53, 0.37), inset 0 1px 1px 0 rgba(255, 255, 255, 0.3)',
@@ -90,7 +91,14 @@ export default function Header() {
               {/* Logo with White Box - Overflowing Top and Bottom */}
               <Link href="/" className="flex items-center z-10 -my-8">
                 <div className="bg-white rounded-xl shadow-2xl px-6 py-6 border-2 border-gray-100">
-                  <img src="/logo.PNG" className="w-25 h-20" />
+                  <Image
+                    src="/logo.PNG"
+                    alt="Prime International Logo"
+                    width={168}
+                    height={126}
+                    className="object-contain h-20 w-auto"
+                    priority
+                  />
                 </div>
               </Link>
 

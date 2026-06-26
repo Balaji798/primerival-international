@@ -9,6 +9,7 @@ import { Product } from '@/data/products';
 import { useCart } from '@/hooks/useCart';
 import { useWishlist } from '@/hooks/useWishlist';
 import { ShoppingCart, Heart, Minus, Plus } from 'lucide-react';
+import Link from 'next/link';
 
 interface ProductDetailProps {
   product: Product;
@@ -304,14 +305,16 @@ const price = product.price || 0;
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <button
-                  onClick={handleAddToCart}
+                <Link
+                  //onClick={handleAddToCart}
+                  href="/get-quote"
                   className="flex-1 bg-gradient-to-r from-[#fa3035] to-[#800000] text-white px-8 py-4 rounded-full font-bold text-lg shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-2"
                 >
-                  <ShoppingCart className="w-5 h-5" />
-                  Add to Cart
-                </button>
-                <button
+                  {/* <ShoppingCart className="w-5 h-5" />
+                  Add to Cart */}
+                  Get Quote
+                </Link>
+                {/* <button
                   onClick={handleWishlistToggle}
                   className={`flex-1 border-2 px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 flex items-center justify-center gap-2 ${
                     isInWishlist(Number(product.id))
@@ -321,7 +324,7 @@ const price = product.price || 0;
                 >
                   <Heart className={`w-5 h-5 ${isInWishlist(Number(product.id)) ? 'fill-current' : ''}`} />
                   {isInWishlist(Number(product.id)) ? 'Remove from Wishlist' : 'Add to Wishlist'}
-                </button>
+                </button> */}
               </div>
 
               {/* Trust Badges */}
