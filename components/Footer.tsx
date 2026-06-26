@@ -5,9 +5,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export default function Footer() {
-  const [email, setEmail] = useState('');
-  const [subscribed, setSubscribed] = useState(false);
-  const [error, setError] = useState('');
 
 
   return (
@@ -24,6 +21,7 @@ export default function Footer() {
                 width={168} 
                 height={126}
                 className="object-cover w-auto brightness-0 invert"
+                priority
               />
             </Link>
             <p className="text-gray-200 mb-6 leading-relaxed">
