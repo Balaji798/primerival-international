@@ -31,7 +31,9 @@ export default function AboutJourney() {
               </p>
               
               <p className="text-lg text-gray-700 leading-relaxed">
-                With cutting-edge facilities and a customer-centric mindset, we've grown into a trusted name across Thailand and global markets. Our founder-led approach keeps us agile, authentic, and quality-obsessed.
+Founded with a vision to harness the power of local natural resources and advanced engineering, our journey began in the heart of rubber latex innovation. Over the years, we mastered the science of latex blending, density control, and high-speed dipping production lines.
+Recognizing a growing global demand for premium outdoor lifestyle and logistics gear, we expanded our horizons by establishing a state-of-the-art hardware fabrication division. Today, we stand as a unique manufacturing powerhouse capable of delivering soft, therapeutic latex comfort alongside rugged, heavy-duty steel utility products.
+
               </p>
             </div>
 

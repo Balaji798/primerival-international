@@ -12,7 +12,7 @@ export default function MissionPage() {
       <MissionHero />
       <MissionCore />
       <MissionImpact />
-      <MissionCTA />
+      {/* <MissionCTA /> */}
       <Footer />
     </div>
   );

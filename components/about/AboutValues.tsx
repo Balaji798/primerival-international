@@ -5,26 +5,26 @@ import { motion } from 'framer-motion';
 const values = [
   {
     icon: '🎯',
-    title: 'Quality First',
-    description: 'Uncompromising standards in every product we deliver',
+    title: 'Safety First:',
+    description: 'Strict zero-defect policy and global testing for all latex and hardware products.',
     color: 'from-[#fa3035] to-[#800000]',
   },
   {
     icon: '🤝',
-    title: 'Customer Focus',
-    description: 'Building lasting partnerships through trust and reliability',
+    title: 'Eco-Friendly:',
+    description: '100% pure natural latex sourced from sustainable, certified plantations',
     color: 'from-[#800000] to-[#fa3035]',
   },
   {
     icon: '💡',
-    title: 'Innovation',
-    description: 'Pioneering new solutions in latex processing technology',
+    title: 'Precision Built:',
+    description: 'Advanced CNC machinery and robotic welding for maximum durability.',
     color: 'from-[#fa3035] to-[#f6efaa]',
   },
   {
     icon: '🌍',
-    title: 'Sustainability',
-    description: 'Responsible practices for a better tomorrow',
+    title: 'B2B Smart Logistics:',
+    description: 'Space-saving packaging designed to slash your global shipping costs.',
     color: 'from-[#800000] to-[#f6efaa]',
   },
 ];

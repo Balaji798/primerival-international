@@ -50,8 +50,9 @@ export default function AboutVision() {
               {/* Right Side - Content */}
               <div className="lg:col-span-3 p-12 bg-white">
                 <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                  Our vision at <span className="font-bold text-gray-800">Prime International</span> is to be the{' '}
-                  <span className="font-bold text-[#fa3035]">leading provider of latex product solutions</span>, setting the benchmark for excellence and innovation in the global industry.
+                  Our vision is to become the <span className="font-bold text-gray-800">world’s leading fully integrated manufacturing</span>
+                  {/* <span className="font-bold text-[#fa3035]">leading provider of latex product solutions</span> */}
+                  that flawlessly unites advanced biological polymer engineering with heavy-duty structural fabrication. We aspire to set the global standard for how modern industries utilize sustainable natural resources to deliver therapeutic comfort within the home and robust, reliable mobility gear for the great outdoors. By continuously expanding our technical capabilities, we envision a future where our products are catalysts for healthier, more efficient, and adventurous lifestyles across every continent.
                 </p>
 
                 <p className="text-lg text-gray-700 leading-relaxed mb-8">

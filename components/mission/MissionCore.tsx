@@ -7,30 +7,30 @@ export default function MissionCore() {
     {
       id: 1,
       number: '01',
-      title: 'Quality Excellence',
-      description: 'We maintain the highest standards in latex processing through rigorous quality control, advanced technology, and continuous improvement. Every product is a testament to our commitment to excellence.',
-      highlights: ['ISO 22000 Certified', 'FSSC 22000 Compliant', 'HALAL Approved', 'Daily Quality Checks']
+      title: 'Uncompressed Quality & Safety',
+      description: 'From medical-grade latex gloves and orthopedic mattresses to heavy-duty folding wagons, quality is our absolute priority. We adhere strictly to international testing standards, ensuring every product is safe, durable, and reliable before leaving our facility.',
+      description2: "Industrial Excellence: Our quality assurance protocol involves rigorous zero-defect benchmarking. This means every batch of gloves undergoes microscopic puncture inspections, our bedding lines face localized fatigue compression tests, and our mobility hardware is subjected to extreme weight-load fatigue testing to guarantee infallible safety under any real-world condition."
     },
     {
       id: 2,
       number: '02',
-      title: 'Sustainable Operations',
-      description: 'Environmental stewardship is at the core of our operations. We implement sustainable farming practices, energy-efficient processing, and eco-friendly packaging to minimize our environmental impact.',
-      highlights: ['Zero-Waste Goal', 'Renewable Energy', 'Sustainable Sourcing', 'Water Conservation']
+      title: 'Sustainable & Eco-Friendly Innovation ',
+      description: 'We actively minimize our environmental footprint by sourcing 100% pure natural rubber latex from eco-responsible plantations. Our advanced post-processing methods reduce chemical waste, creating hypoallergenic products that care for both our users and the planet.',
+      description2:"Green Manufacturing: Our commitment to sustainability extends deeply into our operational pipeline. We implement clean vulcanization and water-recycling closed loops during our intensive leaching process to eliminate dangerous chemical residues. By selecting fully recyclable steel components and non-toxic coatings for our hardware, we ensure that our manufacturing practices actively preserve ecosystems for future generations."
     },
     {
       id: 3,
       number: '03',
-      title: 'Innovation & Technology',
-      description: 'We invest in cutting-edge processing technology and R&D to deliver innovative solutions. Our state-of-the-art facilities enable us to meet evolving market demands with precision.',
-      highlights: ['Advanced Processing', 'R&D Laboratory', 'Smart Automation', 'Product Innovation']
+      title: 'Integrated Manufacturing Excellence',
+      description: 'By combining high-speed automated latex dipping technology with robotic hardware fabrication, we offer an unmatched vertically integrated supply chain. This diversification allows us to optimize manufacturing costs and maintain exceptional design flexibility for global markets.',
+      description2:"Tailored Solutions: By controlling the entire supply chain from raw liquid latex compounding to automated robotic steel fabrication, we offer unmatched OEM and ODM design flexibility. This internal integration allows us to optimize manufacturing cycles, maintain tight dimensional tolerances, and respond dynamically to custom market specifications."
     },
     {
       id: 4,
       number: '04',
-      title: 'Strategic Partnerships',
-      description: 'Building lasting relationships with B2C partners through transparency, reliability, and customized solutions. We grow together by understanding your unique needs and delivering consistent value.',
-      highlights: ['Dedicated Support', 'Custom Solutions', 'Flexible Terms', 'Global Reach']
+      title: 'Customer-Centric Global Partnerships',
+      description: "We don't just supply products; we build long-term international relationships. By providing custom-tailored solutions, space-saving packaging for efficient logistics, and transparent communication, we empower our global partners to scale their businesses successfully.",
+      description2:'Smart Logistics & Growth: We specialize in developing space-saving, freight-efficient packaging solutions such as our vacuum-compressed "Roll-in-Box" mattresses and ultra-compact flat-folding wagons expressly designed to slash international container shipping costs. Through full barcode traceability and localized regulatory compliance, we empower our B2B partners to scale their global distribution with complete financial confidence.'
     }
   ];
 
@@ -119,24 +119,15 @@ export default function MissionCore() {
                     </motion.p>
 
                     {/* Highlights Grid */}
-                    <motion.div
+                    <motion.p
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                       transition={{ duration: 0.6, delay: 0.5 }}
-                      className="grid grid-cols-2 md:grid-cols-4 gap-3"
+                      className="text-lg text-gray-600 leading-relaxed mb-8"
                     >
-                      {mission.highlights.map((highlight, idx) => (
-                        <div
-                          key={idx}
-                          className="bg-white border border-gray-200 rounded-xl px-4 py-3 text-center hover:border-[#fa3035] hover:shadow-md transition-all duration-300"
-                        >
-                          <div className="text-sm font-semibold text-gray-700 font-pally">
-                            {highlight}
-                          </div>
-                        </div>
-                      ))}
-                    </motion.div>
+{mission.description2}
+                    </motion.p>
                   </div>
                 </div>
               </div>

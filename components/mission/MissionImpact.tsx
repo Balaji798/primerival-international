@@ -14,7 +14,7 @@ export default function MissionImpact() {
       metrics: [
         { label: 'Global Presence', value: '15+', unit: 'Countries' },
         { label: 'B2C Partners', value: '500+', unit: 'Businesses' },
-        { label: 'Daily Capacity', value: '100K+', unit: 'Eggs Processed' }
+        { label: 'Daily Capacity', value: '100K+', unit: 'Latex Processed' }
       ]
     },
     {

@@ -6,19 +6,19 @@ const benefits = [
   {
     icon: '✓',
     title: 'Complete Quality Control',
-    description: 'Every step meets our exacting standards, eliminating third-party variables that could compromise product integrity.',
+    description: 'Every step meets our exacting standards, eliminating third-party variables that could compromise product integrity. By managing everything from liquid latex compounding to CNC steel cutting and robotic welding, we ensure every glove, mattress, pillow, and folding wagon achieves absolute structural perfection.',
     color: 'from-[#fa3035] to-[#800000]',
   },
   {
     icon: '🔍',
     title: 'Full Traceability',
-    description: 'We can trace every egg product back to its source farm, feed batch, and production date, ensuring transparency and accountability.',
+    description: ' We can trace every finished product back to its source material batch, production date, and line, ensuring total transparency. Our automated SKU barcoding gives global B2B partners full supply chain visibility—from certified eco-friendly latex plantations straight to the international shipping container.',
     color: 'from-[#800000] to-[#fa3035]',
   },
   {
     icon: '🌱',
     title: 'Sustainable Excellence',
-    description: 'Our integrated approach optimizes resource use, reduces waste, and maintains consistent environmental standards across all operations.',
+    description: ' Our integrated approach optimizes resource use, reduces industrial waste, and maintains consistent environmental standards across all operations. Through clean vulcanization, water-recycling closed loops during leaching, and eco-responsible sourcing, we deliver safe, durable, and green products.',
     color: 'from-[#fa3035] to-[#f6efaa]',
   },
 ];
@@ -39,7 +39,7 @@ export default function VerticalIntegration() {
             <span className="text-[#fa3035]">Means for You</span>
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed">
-            Vertical integration means Prime International owns and operates every stage of the egg production process – from feed manufacturing to final packaging. This comprehensive control delivers three critical advantages:
+            Vertical integration means Prime International owns and operates every stage of the latex production process – from manufacturing to final packaging. This comprehensive control delivers three critical advantages:
           </p>
         </motion.div>
 

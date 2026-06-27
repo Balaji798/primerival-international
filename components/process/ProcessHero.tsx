@@ -43,18 +43,18 @@ export default function ProcessHero() {
             <span className="inline-block bg-gradient-to-r from-[#fa3035] to-[#800000] text-white px-6 py-3 rounded-full text-sm font-bold uppercase tracking-widest mb-8 shadow-lg">
               Our Process
             </span>
-            
+
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-[#800000] mb-6 leading-tight">
-              From Farm to Table –{' '}
-              <span className="text-[#fa3035]">A Fully Integrated Process</span>
+              From Raw Materials to Final Products –
+              <span className="text-[#fa3035]">A Fully Integrated Journey</span>
             </h1>
-            
+
             <p className="text-xl md:text-2xl text-gray-700 mb-8 leading-relaxed">
-              Complete control over every step means uncompromising quality in every egg product we deliver worldwide.
+              Complete control over every step means uncompromising quality in every latex and hardware product we deliver worldwide.
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto mb-12">
-              At Prime International, we don't just process eggs – we control the entire journey from the feed our hens eat to the finished products on your shelves. Our vertically integrated approach ensures consistent quality, full traceability, and sustainable practices at every stage.
+              At our company, we don’t just manufacture – we actively manage and control the entire production journey, starting from the liquid latex extracted at eco-friendly plantations to the heavy-duty folding wagons built in our engineering division. Our strict, vertically integrated approach ensures consistent product durability, full batch traceability, and sustainable manufacturing practices at every single stage of the supply chain.
             </p>
 
             <motion.button

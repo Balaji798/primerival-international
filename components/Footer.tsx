@@ -117,12 +117,12 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-6">Legal</h3>
             <ul className="space-y-3">
-              <li>
+              {/* <li>
                 <Link href="/privacy-policy" className="text-gray-200 hover:text-[#f6efaa] transition-colors flex items-center space-x-2">
                   <span>→</span>
                   <span>Privacy Policy</span>
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/accessibility" className="text-gray-200 hover:text-[#f6efaa] transition-colors flex items-center space-x-2">
                   <span>→</span>

@@ -10,10 +10,10 @@ export default function ProcessPage() {
     <div className="min-h-screen bg-white">
       <Header />
       <ProcessHero />
-            <ProcessStages />
+      <ProcessStages />
       <VerticalIntegration />
 
-      <ProcessCTA />
+      {/* <ProcessCTA /> */}
       <Footer />
     </div>
   );
