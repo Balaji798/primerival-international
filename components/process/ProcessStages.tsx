@@ -183,9 +183,8 @@ function StageCard({ stage, index, stageRef }: { stage: typeof stages[0]; index:
                 </motion.div>
             )}
 
-            <div className={`grid lg:grid-cols-2 gap-8 items-center ${isLeft ? '' : 'lg:grid-flow-dense'}`}>
-                {/* Image Side */}
-                <motion.div
+            <div className={`grid lg:grid-cols-1 gap-8 items-center ${isLeft ? '' : 'lg:grid-flow-dense'}`}>
+                {/* <motion.div
                     style={{ y }}
                     className={`relative ${isLeft ? 'lg:order-1' : 'lg:order-2'}`}
                 >
@@ -199,7 +198,6 @@ function StageCard({ stage, index, stageRef }: { stage: typeof stages[0]; index:
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
 
-                        {/* Floating Number */}
                         <motion.div
                             className="absolute top-8 left-8"
                             initial={{ opacity: 0, x: -30 }}
@@ -213,8 +211,6 @@ function StageCard({ stage, index, stageRef }: { stage: typeof stages[0]; index:
                                 {stage.number}
                             </div>
                         </motion.div>
-
-                        {/* Floating Icon Badge */}
                         <motion.div
                             className="absolute bottom-8 right-8"
                             initial={{ opacity: 0, scale: 0 }}
@@ -230,7 +226,7 @@ function StageCard({ stage, index, stageRef }: { stage: typeof stages[0]; index:
                             </div>
                         </motion.div>
                     </div>
-                </motion.div>
+                </motion.div> */}
 
                 {/* Content Side */}
                 <motion.div
@@ -246,7 +242,6 @@ function StageCard({ stage, index, stageRef }: { stage: typeof stages[0]; index:
                         transition={{ delay: 0.3 }}
                         className="space-y-6"
                     >
-                        {/* Stage Badge */}
                         <motion.span
                             className={`inline-block bg-gradient-to-r ${stage.color} text-white px-5 py-2 rounded-full text-sm font-bold uppercase tracking-wider font-pally`}
                             whileHover={{ scale: 1.05 }}
@@ -254,7 +249,6 @@ function StageCard({ stage, index, stageRef }: { stage: typeof stages[0]; index:
                             Stage {stage.number}
                         </motion.span>
 
-                        {/* Title */}
                         <motion.h3
                             className="text-4xl lg:text-5xl font-bold text-gray-800 font-pally"
                             initial={{ opacity: 0, y: 20 }}

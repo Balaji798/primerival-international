@@ -60,14 +60,14 @@ export default function ShippingPolicy() {
                                 </div>
                                 <div className="pl-14 space-y-4">
                                     <p className="text-gray-700 leading-relaxed">
-                                        We offer both domestic shipping within Thailand and international ocean/air freight shipping worldwide.
+                                        We offer both domestic shipping within Hong Kong and international ocean/air freight shipping worldwide.
                                     </p>
 
                                     {/* Domestic Shipping */}
                                     <div className="bg-gradient-to-r from-[#fff5f5] to-white p-5 rounded-xl border-l-4 border-[#fa3035]">
                                         <h3 className="font-bold text-[#800000] mb-2">Domestic Shipping</h3>
                                         <p className="text-gray-700">
-                                            Estimated delivery within mainland Thailand is <span className="font-semibold">2-5 business days</span> from dispatch, depending on the provincial destination.
+                                            Estimated delivery within mainland Hong Kong is <span className="font-semibold">2-5 business days</span> from dispatch, depending on the provincial destination.
                                         </p>
                                     </div>
 

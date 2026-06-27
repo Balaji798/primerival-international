@@ -24,7 +24,7 @@ const Terms = () => {
                                 Acceptance of Terms
                             </h2>
                             <p className="text-gray-700 leading-relaxed">
-                                By accessing and using the Prime International website, you acknowledge that you have read, understood, and agree to be bound by these Terms & Conditions. If you do not agree with any part of these terms, you must not use our website or services.
+                                By accessing and using the Primerival International website, you acknowledge that you have read, understood, and agree to be bound by these Terms & Conditions. If you do not agree with any part of these terms, you must not use our website or services.
                             </p>
                         </section>
 
@@ -34,7 +34,7 @@ const Terms = () => {
                                 Intellectual Property Rights
                             </h2>
                             <p className="text-gray-700 leading-relaxed">
-                                All content on this website, including but not limited to text, graphics, logos, images, and software, is the property of Prime International or its content suppliers and is protected by international copyright laws. Unauthorized use of any material from this website is strictly prohibited.
+                                All content on this website, including but not limited to text, graphics, logos, images, and software, is the property of Primerival International or its content suppliers and is protected by international copyright laws. Unauthorized use of any material from this website is strictly prohibited.
                             </p>
                         </section>
 
@@ -54,16 +54,16 @@ const Terms = () => {
                                 Governing Law
                             </h2>
                             <p className="text-gray-700 leading-relaxed">
-                                These comprehensive Terms and Conditions, along with any operational policies or disputes arising from your digital interaction with this website, are governed by, interpreted, and enforced in accordance with the laws of the jurisdiction where Prime International is registered. Any legal actions, claims, or contractual disputes relating directly or indirectly to these terms will be subject to the exclusive legal jurisdiction of the courts in that jurisdiction.
+                                These comprehensive Terms and Conditions, along with any operational policies or disputes arising from your digital interaction with this website, are governed by, interpreted, and enforced in accordance with the laws of the jurisdiction where Primerival International is registered. Any legal actions, claims, or contractual disputes relating directly or indirectly to these terms will be subject to the exclusive legal jurisdiction of the courts in that jurisdiction.
                             </p>
                         </section>
 
                         {/* Last Updated */}
-                        <div className="pt-8 border-t border-gray-200">
+                        {/* <div className="pt-8 border-t border-gray-200">
                             <p className="text-sm text-gray-500">
                                 Last Updated: June 2026
                             </p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </main>

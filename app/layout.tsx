@@ -3,8 +3,8 @@ import StripeProvider from '@/components/StripeProvider';
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Prime International | Premium Latex Products",
-description: "Prime International specializes in innovative natural latex products including disposable gloves, ergonomic pillows, and premium mattresses. Trusted manufacturer and exporter serving global partners with quality, consistency, and excellence.",
+  title: "Primerival International | Premium Latex Products",
+description: "Primerial International specializes in innovative natural latex products including disposable gloves, ergonomic pillows, and premium mattresses. Trusted manufacturer and exporter serving global partners with quality, consistency, and excellence.",
     icons: {
     icon: '/logo.png',
   },

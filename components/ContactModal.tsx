@@ -18,14 +18,11 @@ export default function ContactModal({ isOpen, onClose, productName }: ContactMo
     message: '',
     productInterest: productName || '',
   });
-  const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState('');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError('');
-    
-
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {

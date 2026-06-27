@@ -3,7 +3,7 @@ import ProductsGrid from '@/components/products/ProductsGrid';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Our Products | Prime International',
+  title: 'Our Products | Primerival International',
   description: 'Explore our premium range of latex products including mattress, pillow, gloves and folding wagon.',
 };
 

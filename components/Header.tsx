@@ -93,7 +93,7 @@ export default function Header() {
                 <div className="bg-white rounded-xl shadow-2xl px-6 py-6 border-2 border-gray-100">
                   <Image
                     src="/logo.png"
-                    alt="Prime International Logo"
+                    alt="Primerival International Logo"
                     width={168}
                     height={126}
                     className="object-contain h-20 w-auto"

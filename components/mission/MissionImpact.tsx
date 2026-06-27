@@ -10,7 +10,7 @@ export default function MissionImpact() {
     {
       id: 0,
       title: 'Industry Leadership',
-      description: 'Setting benchmarks for quality and innovation in egg processing',
+      description: 'Setting benchmarks for quality and innovation in latex processing',
       metrics: [
         { label: 'Global Presence', value: '15+', unit: 'Countries' },
         { label: 'B2C Partners', value: '500+', unit: 'Businesses' },

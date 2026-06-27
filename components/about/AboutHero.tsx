@@ -32,7 +32,7 @@ export default function AboutHero() {
             <div>
 
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-[#800000] mb-6 leading-tight">
-                <span className="text-[#fa3035]">Prime International</span>
+                <span className="text-[#fa3035]">Primerival International</span>
               </h1>
               <p className="text-2xl md:text-3xl text-gray-800 font-semibold mb-8">
                 <span className="text-[#fa3035]">Excellence in Mattress, Gloves, Pillow Latex Product</span>
@@ -40,7 +40,7 @@ export default function AboutHero() {
             </div>
 
             <p className="text-lg text-gray-700 leading-relaxed">
-              Prime International is a <span className="font-semibold text-[#800000]"> innovation-first</span> company redefining latex processing for B2C systems. Headquartered in Thailand, we manufacture and export premium latex-based product built for performance, consistency, and shelf-stability.
+              Primerival International is a <span className="font-semibold text-[#800000]"> innovation-first</span> company redefining latex processing for B2C systems. Headquartered in Thailand, we manufacture and export premium latex-based product built for performance, consistency, and shelf-stability.
             </p>
 
             {/* Stats Grid */}
@@ -115,7 +115,7 @@ export default function AboutHero() {
               <div className="col-span-2 relative h-96 rounded-3xl overflow-hidden shadow-2xl">
                 <Image
                   src="/product/mattress/natural-para-later.jpg"
-                  alt="Prime International Latex Product"
+                  alt="Primerival International Latex Product"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"

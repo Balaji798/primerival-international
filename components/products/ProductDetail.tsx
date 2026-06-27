@@ -226,12 +226,12 @@ const price = product.price || 0;
               </h1>
 
               {/* Price Display */}
-              <div className="flex items-baseline space-x-2">
+              {/* <div className="flex items-baseline space-x-2">
                 <span className="text-3xl md:text-4xl font-bold text-[#fa3035]">
                   ${price.toFixed(2)}
                 </span>
                 <span className="text-gray-500">per unit</span>
-              </div>
+              </div> */}
 
               {/* Quick Info Grid */}
               <div className="grid grid-cols-2 gap-4 py-6 border-y border-gray-200">

@@ -23,7 +23,7 @@ const Accessibility = () => {
             </h2>
             <div className="bg-gray-50 rounded-2xl p-8 border-l-4 border-[#fa3035]">
               <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                At Prime International, we are committed to ensuring digital accessibility for people with disabilities. We continually improve the user experience for everyone and apply the relevant accessibility standards.
+                At Primerival International, we are committed to ensuring digital accessibility for people with disabilities. We continually improve the user experience for everyone and apply the relevant accessibility standards.
               </p>
               <p className="text-gray-700 text-lg leading-relaxed">
                 Our website is designed to be inclusive and accessible to all users, regardless of their abilities or disabilities. We strive to provide an equal experience for all visitors.
@@ -73,9 +73,9 @@ const Accessibility = () => {
           </section>
 
           {/* Last Updated */}
-          <div className="text-center text-gray-500 text-sm mt-12 pt-8 border-t border-gray-200">
+          {/* <div className="text-center text-gray-500 text-sm mt-12 pt-8 border-t border-gray-200">
             <p>Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
-          </div>
+          </div> */}
         </div>
       </div>
       <Footer />
