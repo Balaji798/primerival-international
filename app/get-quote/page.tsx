@@ -46,8 +46,8 @@ export default function GetQuote() {
       const publicKey = 'YOUR_PUBLIC_KEY';
 
       await emailjs.send(
-        serviceId,
-        templateId,
+                process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+                process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
         {
           from_name: formData.name,
           from_email: formData.email,
@@ -56,7 +56,7 @@ export default function GetQuote() {
           products: formData.selectedProducts.join(', '),
           message: formData.message,
         },
-        publicKey
+                { publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY! }
       );
 
       setSubmitStatus('success');
