@@ -18,7 +18,7 @@ export default function SuccessContent() {
   const router =
     useRouter();
 
-  const sessionId =
+  const 
     searchParams.get(
       'session_id'
     );

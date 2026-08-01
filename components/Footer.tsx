@@ -157,13 +157,13 @@ export default function Footer() {
             {/* Contact Info */}
             <div className="space-y-4 mb-6">
               <a
-                href="tel:+911234567890"
+                href="tel:+6655060709"
                 className="flex items-start space-x-3 text-gray-200 hover:text-[#f6efaa] transition-colors group"
               >
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                 </svg>
-                <span className="break-all">+66 1234567880</span>
+                <span className="break-all">+66 5506 0709</span>
               </a>
 
               <a
