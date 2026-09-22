@@ -7,21 +7,18 @@ import {
 } from 'react';
 
 import {
-  useSearchParams,
   useRouter,
 } from 'next/navigation';
 
 export default function SuccessContent() {
-  const searchParams =
-    useSearchParams();
 
   const router =
     useRouter();
 
-  const 
-    searchParams.get(
-      'session_id'
-    );
+  // const
+  //   searchParams.get(
+  //     'session_id'
+  //   );
 
   const [loading, setLoading] =
     useState(true);
@@ -29,54 +26,54 @@ export default function SuccessContent() {
   const [error, setError] =
     useState('');
 
-  useEffect(() => {
-    const saveOrder =
-      async () => {
-        try {
-          if (!sessionId) {
-            setLoading(false);
-            return;
-          }
+  // useEffect(() => {
+  //   const saveOrder =
+  //     async () => {
+  //       try {
+  //         if (!sessionId) {
+  //           setLoading(false);
+  //           return;
+  //         }
 
-          const response =
-            await fetch(
-              '/api/payment-success',
-              {
-                method: 'POST',
+  //         const response =
+  //           await fetch(
+  //             '/api/payment-success',
+  //             {
+  //               method: 'POST',
 
-                headers: {
-                  'Content-Type':
-                    'application/json',
-                },
+  //               headers: {
+  //                 'Content-Type':
+  //                   'application/json',
+  //               },
 
-                body:
-                  JSON.stringify({
-                    sessionId,
-                  }),
-              }
-            );
+  //               body:
+  //                 JSON.stringify({
+  //                   sessionId,
+  //                 }),
+  //             }
+  //           );
 
-          const data =
-            await response.json();
+  //         const data =
+  //           await response.json();
 
-          if (!response.ok) {
-            throw new Error(
-              data.error
-            );
-          }
+  //         if (!response.ok) {
+  //           throw new Error(
+  //             data.error
+  //           );
+  //         }
 
-        } catch (err: any) {
-          setError(
-            err.message
-          );
-        } finally {
-          setLoading(false);
-        }
-      };
+  //       } catch (err: any) {
+  //         setError(
+  //           err.message
+  //         );
+  //       } finally {
+  //         setLoading(false);
+  //       }
+  //     };
 
-    saveOrder();
+  //   saveOrder();
 
-  }, [sessionId]);
+  // }, [sessionId]);
 
   if (loading) {
     return (
